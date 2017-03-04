@@ -1,0 +1,13 @@
+{
+  "name": "Mark",
+  "short_name": "MK",
+  "scope": "./",
+  "icons": [{
+    "src": "apple-touch-icon-180x180.png",
+    "sizes": "180x180"
+  }],
+  "background_color": "#29363e",
+  "display": "standalone",
+  "start_url": "./",
+  "theme_color": "#29363e"
+}

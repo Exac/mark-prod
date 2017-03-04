@@ -19,13 +19,33 @@ import { ActivatedRoute, Router } from '@angular/router';
 <md-card class="about">
   <button id="close" (click)="onClickClose()"><md-icon>close</md-icon></button>
   <md-tab-group>
+    
+    <md-tab label="Install">
+      <md-card class="install-card">
+        <md-card-header>
+          <md-card-title>Installation</md-card-title>
+          <md-card-subtitle>How to save the app on iOS.</md-card-subtitle>
+        </md-card-header>
+        <md-card-content>
+          <img md-card-image src="assets/about-install-1.jpg">
+          <p>Tap the middle icon at the bottom of your browser.</p>
+          <img md-card-image src="assets/about-install-2.jpg">
+          <p>Scroll the list of icons to the left until you find "Add to Home Screen"; press it.</p>
+          <img md-card-image src="assets/about-install-3.jpg">
+          <p>Click "Add".</p>
+          <img md-card-image src="assets/about-install-4.jpg">
+          <p>Now you can launch the app from your Home Screen.</p>
+        </md-card-content>
+      </md-card>
+    </md-tab>
+    
     <md-tab label="Forward">
       <md-card class="foward-card">
         <md-card-header>
           <md-card-title>MK</md-card-title>
           <md-card-subtitle>MARK is used by the BCSSA</md-card-subtitle>
         </md-card-header>
-        <img md-card-image src="./bcspeedskating-logo-full.svg">
+        <img md-card-image src="assets/bcspeedskating-logo-full.svg">
         <md-card-content>
           <p>
             MK is a simple time-tracking app designed to make it simpler to track races when using a 
@@ -48,7 +68,7 @@ import { ActivatedRoute, Router } from '@angular/router';
           <md-card-title>Usage</md-card-title>
           <md-card-subtitle>Quick-start guide</md-card-subtitle>
         </md-card-header>
-        <img md-card-image src="./about-buttons.svg">
+        <img md-card-image src="assets/about-buttons.svg">
         <md-card-content>
           <p>
             In an example race we might have the following scenario:
@@ -78,7 +98,14 @@ import { ActivatedRoute, Router } from '@angular/router';
               <h4 md-line>The last skater crosses the line</h4>
               <p md-line>Press <span class="green">End</span>.</p>
             </md-list-item> 
-          </md-list> 
+          </md-list>
+          <p>Now, if the referees convene and request to see the infraction from the third lap, you can load up the 
+          replay-system from the time of the first lap, until the time of the fourth lap (or even less!).</p>
+          <p>You can add comments to races by tapping the right-side of the race and typing.</p>
+          <md-divider></md-divider>
+          <p>If you want to remove the races, or change the race number of the next race, you can do this in the 
+          settings. Open the settings by tapping the 'cog' icon in the top right. From here you can change the time to 
+          match the system, edit the race number, or reset the races data.</p>
         </md-card-content>
         <md-card-actions>
           <button md-button routerLink="/settings">SETTINGS</button>

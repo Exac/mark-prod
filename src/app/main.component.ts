@@ -15,7 +15,7 @@ import { Settings } from "./settings";
   template: `
 <section id="top">
   <a routerLink="/about" routerLinkActive="active" class="aboutButton">
-    <img id="logo" alt="app logo" src="./MarkLogo-small.png" width="32" height="32"/>
+    <img id="logo" alt="app logo" src="assets/MarkLogo-small.png" width="32" height="32"/>
   </a>
   <settings-button></settings-button>
   <span id="camTime">

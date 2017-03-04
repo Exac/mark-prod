@@ -44,7 +44,7 @@ import { Settings } from "./settings";
           <md-card-title>Clock Settings</md-card-title>
           <md-card-subtitle>Adjust the clock to match the system.</md-card-subtitle>
         </md-card-header>
-        <img md-card-image src="settings-clock.jpg">
+        <img md-card-image src="assets/settings-clock.jpg">
         <md-card-content>
           <table>
       <tr>
@@ -94,7 +94,7 @@ import { Settings } from "./settings";
           <md-card-title>Race Number Settings</md-card-title>
           <md-card-subtitle>Adjust the race number for the next race.</md-card-subtitle>
         </md-card-header>
-        <img md-card-image src="./settings-adjust-time.jpg">
+        <img md-card-image src="assets/settings-adjust-time.jpg">
         <md-card-content>
           <form>
             <p>
@@ -121,7 +121,7 @@ import { Settings } from "./settings";
           <md-card-title>Reset</md-card-title>
           <md-card-subtitle>Clear my settings.</md-card-subtitle>
         </md-card-header>
-        <img md-card-image src="./settings-backup.jpg">
+        <img md-card-image src="assets/settings-backup.jpg">
         <md-card-content>
           
         </md-card-content>
@@ -137,7 +137,7 @@ import { Settings } from "./settings";
           <md-card-title>Backup</md-card-title>
           <md-card-subtitle>Backup race data.</md-card-subtitle>
         </md-card-header>
-        <img md-card-image src="./settings-backup.jpg">
+        <img md-card-image src="assets/settings-backup.jpg">
         <md-card-content>
           <pre>{{ racesService.getRaces() }}</pre>
         </md-card-content>
