@@ -54,8 +54,7 @@ body {
 
 #bottom {
   box-sizing: border-box;
-  display: block;
-  bottom: 0px;
+  bottom: 0;
   height: 17vh;
   display: flex;
   justify-content: space-around; }
@@ -192,7 +191,8 @@ button {
 .round span {
   text-align: center;
   display: block;
-  width: 100%; }
+  width: 100%;
+  line-height: 84px; }
 
 .round:focus {
   outline: 0; }
@@ -326,7 +326,7 @@ a.round {
 #settings table {
   text-align: center;
   font-size: 2em;
-  border-spacing: 0px;
+  border-spacing: 0;
   margin: 0;
   padding: 2.5vw; }
 
