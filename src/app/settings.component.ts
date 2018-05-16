@@ -219,7 +219,7 @@ export class SettingsComponent implements OnDestroy {
   constructor(private route: ActivatedRoute,
               private router: Router,
               private settingsService: SettingsService,
-              private racesService: RacesService) {
+              public racesService: RacesService) {
     this.raceNumber = settingsService.getRaceNumber();
     this.settingsSubscription = settingsService.settingsChange.subscribe((setting)=>{
       this.raceNumber = setting.raceNumber;

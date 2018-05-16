@@ -60,7 +60,7 @@ export class MainComponent implements OnDestroy {
   racesSubscription: Subscription;
   settingsSubscription: Subscription;
 
-  constructor(private racesService: RacesService,
+  constructor(public racesService: RacesService,
               private settingsService: SettingsService) {
     this.races = racesService.getRaces();
     this.timeAdjustment = settingsService.getTimeAdjustment();
